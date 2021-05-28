@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Create_single_test"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <EditText
+        android:id="@+id/NameOfTheTest"
+        android:layout_width="412dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Введите название теста"
+
+
+        tools:ignore="MissingConstraints"
+         />
+</LinearLayout>
+
+
+    <Button
+        android:id="@+id/createTestButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Создать"
+        android:background="@color/material_on_surface_emphasis_medium"
+        android:layout_gravity="center"
+        android:onClick="onClick"/>
+</LinearLayout>

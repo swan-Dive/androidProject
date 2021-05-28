@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".final_activity"
+    android:id="@+id/find_layout"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+    <Button
+        android:background="@color/material_on_surface_emphasis_medium"
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="GoBack"
+        android:text="Вернуться в главное меню" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+
+        android:textAlignment="center"
+        android:text="Ваш результат: 7/12"
+        android:textSize="50dp"
+
+
+        android:gravity="center_horizontal" />
+
+
+</LinearLayout>

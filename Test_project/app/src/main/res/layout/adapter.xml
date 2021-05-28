@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll">
+
+
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/textv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:height="50dp"
+        android:ems="100"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:id="@+id/Radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+  >
+
+             <CheckBox
+                 android:textAlignment="center"
+            android:id="@+id/rb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                 android:text="Вопрос 1"
+                 android:gravity="center_horizontal" />
+            <CheckBox
+                android:textAlignment="center"
+                android:id="@+id/rb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Вопрос 2"
+                android:gravity="center_horizontal" />
+
+
+
+             <CheckBox
+                 android:textAlignment="center"
+            android:id="@+id/rb3"
+                 android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                 android:text="Вопрос 3"
+                 android:gravity="center_horizontal" />
+            <CheckBox
+                android:textAlignment="center"
+                android:id="@+id/rb4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Вопрос 4"
+                android:gravity="center_horizontal" />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

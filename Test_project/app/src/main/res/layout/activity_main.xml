@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/back">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:textColor="@color/white"
+        android:text="Составить тест"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:onClick="MakeTest"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="339dp"
+        android:textColor="@color/white"
+        android:text="Редактор тестов"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:onClick="test_editor"/>
+
+
+    <Button
+        android:id="@+id/button4"
+        android:background="@drawable/inset"
+        android:layout_width="200dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        
+        android:layout_marginTop="378dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:text="Пройти тест"
+        android:onClick="pass_the_test"/>
+</RelativeLayout>
